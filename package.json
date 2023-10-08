@@ -1,0 +1,30 @@
+{
+  "name": "hack-sell",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint src --ext .ts,.tsx",
+    "lint:fix": "eslint src --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^1.1.0",
+    "axios": "^1.5.1",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18",
+    "stripe": "^13.9.0",
+    "styled-components": "^6.0.8",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@rocketseat/eslint-config": "^2.1.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8.51.0",
+    "typescript": "^5"
+  }
+}
